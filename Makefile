@@ -1,5 +1,6 @@
 # ARTPARK MCP Server — common commands
-VENV := ~/pyenv/onehealth-artpark-mcp
+# Override VENV to point to your virtual environment if not using .venv/
+VENV ?= .venv
 PYTHON := $(VENV)/bin/python
 PORT := 8000
 

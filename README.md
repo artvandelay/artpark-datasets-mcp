@@ -9,10 +9,15 @@ MCP (Model Context Protocol) server for accessing ARTPARK's public health datase
 ## Quick Start
 
 ```bash
-# Activate environment
-source ~/pyenv/onehealth-artpark-mcp/bin/activate
+# Clone with submodules
+git clone --recurse-submodules <repo-url>
+cd onehealth-artpark-mcp
 
-# Run MCP server
+# Create environment and install
+uv venv .venv && source .venv/bin/activate
+uv pip install -r requirements.txt
+
+# Run
 python artpark_server.py
 # → MCP:    http://localhost:8000/mcp
 # → Health: http://localhost:8000/health
@@ -22,7 +27,7 @@ Or with Make:
 
 ```bash
 make run          # Start MCP server
-make test         # Run 40 tests (1.5s)
+make test         # Run 40 tests (~2s)
 make check        # Verify datasets + tools load
 make docker-up    # Start server + Jaeger tracing
 make help         # Show all commands

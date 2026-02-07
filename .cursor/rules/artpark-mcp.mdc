@@ -46,6 +46,6 @@ make docker-up    # Start with Jaeger tracing
 
 ## Environment
 
-- Python virtual environment: `~/pyenv/onehealth-artpark-mcp/`
+- Python virtual environment: `.venv/` (or override with `VENV` env var)
 - Package manager: uv
 - Keys/config: `.env` in project root (gitignored)
