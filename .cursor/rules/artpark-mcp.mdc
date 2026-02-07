@@ -1,0 +1,51 @@
+---
+description: Guidelines for working with the ARTPARK MCP Server codebase
+globs: ["**/*.py", "**/*.md"]
+alwaysApply: true
+---
+
+# ARTPARK MCP Server - Cursor Rules
+
+## Project overview
+
+This is an MCP (Model Context Protocol) server that provides AI-ready access to 8 ARTPARK public health datasets. It's built with FastMCP 3.0 and follows the architecture of esankhyiki-mcp.
+
+## Key architecture
+
+- `artpark_server.py` -- FastMCP server with 4 tools (numbered 1-4, must be called in order)
+- `artpark/client.py` -- Local data reader that reads CSV files and metadata.yaml from `publicdata/data/`
+- `observability/telemetry.py` -- OpenTelemetry middleware for Jaeger tracing
+- `publicdata/` -- Git submodule pointing to dsih-artpark/publicdata (do NOT edit files here)
+- `tests/` -- pytest test suite (40 tests, run with `make test`)
+
+## When editing code
+
+- The 4-step MCP workflow (1_know → 2_get_tables → 3_get_metadata → 4_get_data) is intentional. Do not combine tools or skip steps.
+- Tool docstrings contain `RULES (MUST follow exactly)` blocks -- these are for LLM consumers, not humans. Preserve them.
+- `_next_step` and `_retry_hint` keys in tool responses steer LLM behavior. Keep them.
+- Filter matching is case-insensitive (str.lower() comparison). Don't change this.
+- Dataset 0015 has a broken metadata.yaml upstream. The fallback logic in client.py handles this -- don't remove it.
+- Always run `make test` after changes. All 40 tests should pass.
+
+## When editing examples
+
+- Simple examples (01-04) are in `examples/`
+- Complex investigations (05-09) are in `examples/Complex/`
+- All Complex reports cross-reference each other via relative markdown links. If you rename a file, update all links.
+- The EXECUTIVE_SUMMARY.md is a standalone one-pager. Keep it concise.
+- Data in reports was pulled live from the MCP server. Numbers should match what `4_get_data` returns.
+
+## Common commands
+
+```bash
+make run          # Start MCP server on port 8000
+make test         # Run test suite
+make check        # Verify datasets and tools load
+make docker-up    # Start with Jaeger tracing
+```
+
+## Environment
+
+- Python virtual environment: `~/pyenv/onehealth-artpark-mcp/`
+- Package manager: uv
+- Keys/config: `.env` in project root (gitignored)

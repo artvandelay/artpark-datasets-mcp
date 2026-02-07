@@ -1,7 +1,7 @@
 """
 ARTPARK Public Data Client
 Reads local CSV files and metadata.yaml from the publicdata repo.
-Mirrors the structure of mospi/client.py from esankhyiki-mcp.
+Architecture adapted from mospi/client.py in esankhyiki-mcp.
 
 Architecture:
     publicdata/data/
