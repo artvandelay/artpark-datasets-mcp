@@ -32,16 +32,16 @@ Previous analyses (Examples 01-03) focused on Karnataka and concluded that vacci
 
 | State | Rounds | Avg Boost (O%) | Peak Post-Vac O% | Latest Post-Vac O% | Serosurveillance Trend |
 |-------|--------|---------------|-------------------|--------------------|-----------------------|
-| **Tamil Nadu** | 12 | ~28pp | 98.2% (2015) | 78.3% (2022) | 20.0→22.2% (stable) |
-| **Kerala** | 8 | ~25pp | 92.0% (2015) | 72.7% (2022) | 44.4→17.8% (declining) |
+| **Tamil Nadu** | 14 | ~25pp | 98.2% (2015) | 78.3% (2022) | 20.0→22.2% (stable) |
+| **Kerala** | 10 | ~21pp | 92.0% (2015) | 72.7% (2022) | 44.4→17.8% (declining) |
 | **Haryana** | 10 | ~25pp | 96.0% (2015) | 68.8% (2022) | 2.1→5.1% (very low) |
 | **Goa** | 14 | ~22pp | 98.9% (2014) | 77.8% (2022) | N/A |
 
 **Why they're green:**
-- **Tamil Nadu** ran 12 FMDCP rounds (R9-R22) and hit 98.2% post-vac in 2015 (the highest non-Delhi level in the dataset). Even after the COVID crash, NADCP Round 2 recovered to 78.3%. Serosurveillance stayed stable around 20-27% (the virus circulates but isn't increasing).
+- **Tamil Nadu** ran 14 FMDCP rounds (R9-R22) and hit 98.2% post-vac in 2015 (the highest non-Delhi level in the dataset). Even after the COVID crash, NADCP Round 2 recovered to 78.3%. Serosurveillance stayed stable around 20-27% (the virus circulates but isn't increasing).
 - **Kerala** shows the best serosurveillance improvement: 44.4% seropositive in 2013 crashed to 4.94% in 2018, suggesting vaccination actually reduced virus circulation. It bounced to 21% in 2021 (pandemic effect) but remains under control at 17.8% in 2022.
 - **Haryana** had India's highest absolute post-vac numbers (96% in 2015) AND India's lowest serosurveillance (2.1-9.0% most years). This is the best combination -- high vaccine-induced immunity with minimal natural virus.
-- **Goa** ran 14 consecutive rounds (the most of any state) and maintained steady 70-97% post-vac levels.
+- **Goa** ran 14 consecutive rounds (tied with Tamil Nadu for the most of any state) and maintained steady 70-97% post-vac levels.
 
 ### YELLOW states: Mediocre or declining performance (11 states)
 
@@ -49,7 +49,7 @@ Previous analyses (Examples 01-03) focused on Karnataka and concluded that vacci
 |-------|--------|---------------|--------------------|--------------------|
 | Karnataka | 16 | ~19pp | 85.5% (2022) | Serosurveillance spiked to 36% in 2022 |
 | Maharashtra | 13 | ~28pp | 76.3% (2022) | Boost declining: 44.7pp (2011) → 14.9pp (2018) |
-| Gujarat | 12 | ~16pp | 40.6% (2022) | Post-vac dropped from 81.6% (2014) to 40.6% (2022) |
+| Gujarat | 11 | ~18pp | 40.6% (2022) | Post-vac dropped from 81.6% (2014) to 40.6% (2022) |
 | Telangana | 8 | ~15pp | 64.0% (2022) | Serosurveillance volatile (1.0-33.8%) |
 | Andhra Pradesh | 10 | ~16pp | 41.5% (2022) | Seroprevalence spiked from 1.65% (2018) to 22.7% (2022) |
 | Punjab | 12 | ~14pp | 66.1% (2022) | Boost declining from ~30pp to ~14pp |
@@ -61,7 +61,7 @@ Previous analyses (Examples 01-03) focused on Karnataka and concluded that vacci
 
 **Key warning signs:**
 - **Maharashtra's declining boost** is the most concerning YELLOW signal. In 2011, vaccination raised O% by 44.7pp. By 2018, the same program raised it by just 14.9pp. The vaccine is becoming less effective over time -- possibly due to antigenic drift or vaccine fatigue.
-- **Gujarat's collapse**: from 81.6% post-vac in 2014 to just 40.6% in 2022. Gujarat ran the most FMDCP rounds (R13-R24, 12 rounds), yet finished with one of the weakest post-vac levels.
+- **Gujarat's collapse**: from 81.6% post-vac in 2014 to just 40.6% in 2022. Gujarat ran 11 FMDCP rounds (R13-R24, R20 missing), yet finished with one of the weakest post-vac levels.
 - **Karnataka** is YELLOW despite 85.5% post-vac in 2022, because its serosurveillance data shows the virus is surging: 36.0% seropositive in 2022 is the highest in Karnataka's history. The vaccine works, but the virus is winning the ground war.
 
 ### RED states: The program is failing or untested (20 states/territories)

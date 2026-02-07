@@ -96,7 +96,7 @@ All values from NADCP Round 2 seromonitoring (0087) and 2022 serosurveillance (0
 
 ### 3. Gujarat (Risk Score: 44.3)
 
-**A fallen star.** Gujarat ran 12 FMDCP rounds and peaked at 81.6% post-vac in 2014. By 2022, it's at 40.6% -- a catastrophic decline. Gujarat's seroprevalence (14%) is moderate, but combined with one of the lowest post-vac levels in India, it's in critical territory.
+**A fallen star.** Gujarat ran 11 FMDCP rounds and peaked at 81.6% post-vac in 2014. By 2022, it's at 40.6% -- a catastrophic decline. Gujarat's seroprevalence (14%) is moderate, but combined with one of the lowest post-vac levels in India, it's in critical territory.
 
 ## Deep dive: The success stories
 
