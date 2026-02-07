@@ -1,0 +1,13 @@
+[project]
+name = "onehealth-artpark-mcp"
+version = "0.1.0"
+description = "MCP server for accessing ARTPARK public health datasets through AI assistants"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = "-v --tb=short"

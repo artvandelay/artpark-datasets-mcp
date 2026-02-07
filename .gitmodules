@@ -1,0 +1,3 @@
+[submodule "publicdata"]
+	path = publicdata
+	url = https://github.com/dsih-artpark/publicdata.git
