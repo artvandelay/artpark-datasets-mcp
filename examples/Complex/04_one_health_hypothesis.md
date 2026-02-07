@@ -77,7 +77,7 @@ The data contains striking cases that contradict the hypothesis:
 
 - **Total bovine:** 1,393,711 (rank 1 -- by far the largest in Karnataka)
 - **Dengue mean daily positives:** 0.598 (rank 14 out of 17)
-- Belagavi has nearly **6x the bovine population** of the median district, yet it ranks 14th for dengue
+- Belagavi has over **3× the bovine population** of the median sampled district (457K), yet it ranks 14th for dengue
 
 ### Dakshina Kannada: Least buffalo, most dengue
 

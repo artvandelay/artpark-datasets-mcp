@@ -16,7 +16,7 @@ Policy makers need to know where to direct limited veterinary resources. Current
 2. Pulled **all 202 serosurveillance records** (0089) for natural virus circulation
 3. Pulled **all 30 Karnataka district livestock populations** (0041)
 4. Designed a three-component risk scoring formula
-5. Computed risk scores for 20 states with sufficient data
+5. Computed risk scores for 19 states with sufficient data
 6. Ranked all states and identified the top-risk and bottom-risk groups
 
 ## The risk model
@@ -45,7 +45,7 @@ A higher score means higher outbreak risk. The theoretical maximum is 100 (no im
 
 ## The real data
 
-### Complete risk ranking: 20 Indian states/territories (2022 data)
+### Complete risk ranking: 19 Indian states/territories (2022 data)
 
 All values from NADCP Round 2 seromonitoring (0087) and 2022 serosurveillance (0089).
 
@@ -78,8 +78,8 @@ All values from NADCP Round 2 seromonitoring (0087) and 2022 serosurveillance (0
 | Tier | Score Range | States | Count |
 |------|-----------|--------|-------|
 | **CRITICAL** (>40) | 44-48 | Andhra Pradesh, Bihar, Gujarat | 3 |
-| **HIGH** (33-40) | 33-37 | UP, Assam, MP, Punjab, Uttarakhand, HP, J&K, Puducherry, Karnataka, West Bengal | 10 |
-| **MODERATE** (25-33) | 28-31 | Telangana, Kerala, Maharashtra, Haryana | 4 |
+| **HIGH** (33-40) | 33-37 | UP, Assam, MP, Punjab, Uttarakhand, HP, J&K, Puducherry, Karnataka | 9 |
+| **MODERATE** (25-33) | 28-32 | West Bengal, Telangana, Kerala, Maharashtra, Haryana | 5 |
 | **LOW** (<25) | 17-20 | Odisha, A&N Islands | 2 |
 
 ## Deep dive: The critical-risk trio
@@ -159,7 +159,7 @@ The 40/40/20 weighting was a heuristic choice. To test robustness, the top-3 ran
 
 ## Methodology notes
 
-- **Inclusion criteria:** States must have both NADCP Round 2 (2022) seromonitoring data AND 2022 serosurveillance data. 20 states/territories met this criteria.
+- **Inclusion criteria:** States must have both NADCP Round 2 (2022) seromonitoring data AND 2022 serosurveillance data. 19 states/territories met this criteria.
 - **15 states excluded:** States with only pre-vac data (Chhattisgarh, Jharkhand, Nagaland), states with no 2022 serosurveillance (Tamil Nadu, Goa, Delhi, Rajasthan), and states with no seromonitoring data at all (Tripura).
 - **Weight selection:** Weights were set heuristically, not optimized. Sensitivity analysis above confirms the top-risk ranking is robust. A more rigorous approach would use historical outbreak data to calibrate weights, which is not available in the current ARTPARK datasets.
 - **Vaccination progress data:** Dataset 0055 (NADCP district-level vaccination progress) was not accessible via the MCP server during this analysis. Including coverage rates would improve the model.

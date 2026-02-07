@@ -79,7 +79,7 @@ The [`examples/Complex/`](examples/Complex/) folder contains five investigations
 | [COVID Damage Forensics](examples/Complex/05_covid_damage_forensics.md) | Compared pre/post-COVID immunity for 19 states, ranked crash severity | Average -32.8pp immunity loss nationwide |
 | [Needle in a Haystack](examples/Complex/06_needle_in_haystack.md) | Scanned 238 rows for 4 anomaly categories, crowned a winner | Nagaland 2021: vaccination *halved* immunity |
 | [Myth Debunker](examples/Complex/07_myth_debunker.md) | Classified all 35 states as GREEN/YELLOW/RED using 2 datasets | Only 4 states (11%) show clear success |
-| [FMD Risk Model](examples/Complex/08_risk_model.md) | Built a 3-component scoring formula, ranked 20 states | AP, Bihar, Gujarat are highest risk |
+| [FMD Risk Model](examples/Complex/08_risk_model.md) | Built a 3-component scoring formula, ranked 19 states | AP, Bihar, Gujarat are highest risk |
 
 > Read the [full series README](examples/Complex/README.md) for the narrative arc connecting all five.
 

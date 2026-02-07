@@ -4,7 +4,7 @@
 
 > **The question:** "How badly did the COVID-19 pandemic break India's FMD vaccination program? Quantify the damage, state by state."
 >
-> **The headline:** Nationwide average immunity crash: **-32.8 percentage points** across 19 comparable states. Only 1 state (Rajasthan) held steady. 5 states lost more than 50pp.
+> **The headline:** Nationwide average immunity crash: **-32.8 percentage points** across 19 comparable states. Only 1 state (Rajasthan) held steady. 4 states lost more than 50pp.
 
 ## Why this matters
 
@@ -64,7 +64,7 @@ Out of 19 states with comparable data:
 - **17 states** lost immunity (negative crash)
 - **1 state** held steady: Rajasthan (-0.1pp -- essentially zero loss)
 - **1 state** actually *improved*: Puducherry (+10.5pp)
-- **5 worst-hit states** lost more than 50pp of type O immunity
+- **4 states** lost more than 50pp of type O immunity; Karnataka (-48.5pp) was the 5th-worst
 
 > **Important caveat on Haryana and Delhi:** Their last FMDCP seromonitoring data was from **2015**, not 2018. The 6-year gap to 2021 NADCP means their crashes reflect both the pandemic AND 3 years of pre-pandemic inactivity. For the other 17 states, the gap was 3 years (2018 → 2021). Haryana's rank-1 position should be interpreted with this in mind. *→ Nagaland's data quality issues during this same period are explored in [Investigation 03](06_needle_in_haystack.md).*
 
@@ -145,7 +145,7 @@ An API returns 238 rows of seromonitoring data. It does not:
 
 - "Last pre-COVID" = the chronologically last round with post-vac data in 2018 or earlier. For states with multiple 2018 rounds, the highest round number was used.
 - "First post-COVID" = NADCP Round 1 (2021) pre-vac data. For states without 2021 data, they were excluded from the ranking.
-- 16 states/territories had only NADCP data (new entrants) and couldn't be compared: Assam, Arunachal Pradesh, Bihar, Chandigarh, Dadra & Nagar Haveli, Jammu & Kashmir, Jharkhand, Lakshadweep, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, and Tripura.
+- 16 states/territories lacked the data pairing needed for comparison and were excluded: Assam, Arunachal Pradesh, Bihar, Chandigarh, Dadra & Nagar Haveli, Himachal Pradesh, Jammu & Kashmir, Jharkhand, Lakshadweep, Manipur, Meghalaya, Mizoram, Nagaland, Sikkim, Tripura, and West Bengal. Most are new NADCP entrants; Himachal Pradesh and West Bengal had some FMDCP history but lacked the specific pre-COVID post-vac/post-COVID pre-vac pair required.
 - Haryana and Delhi's last pre-COVID data was from 2015, not 2018, making their crashes reflect a longer gap.
 - Sample sizes vary dramatically (Delhi: 200, Tamil Nadu: 6,400), which affects reliability.
 

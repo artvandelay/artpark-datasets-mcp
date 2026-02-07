@@ -113,7 +113,7 @@ This is policy intelligence, not data retrieval.
 This example generates policy recommendations for Karnataka. The [Complex investigations](Complex/README.md) go further:
 
 - [One Health Hypothesis](Complex/04_one_health_hypothesis.md) -- tests whether livestock density also predicts *dengue* in Karnataka districts (it doesn't; r = +0.01)
-- [FMD Risk Model](Complex/08_risk_model.md) -- ranks 20 states by outbreak vulnerability using a composite scoring model, and includes a Karnataka district-level bonus analysis that identifies Kalaburagi as a dual-burden hotspot
+- [FMD Risk Model](Complex/08_risk_model.md) -- ranks 19 states by outbreak vulnerability using a composite scoring model, and includes a Karnataka district-level bonus analysis that identifies Kalaburagi as a dual-burden hotspot
 
 ## Datasets used
 

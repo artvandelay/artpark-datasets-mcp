@@ -17,7 +17,7 @@ Every number in these reports was pulled live from the ARTPARK DataIO API via MC
 | [01](04_one_health_hypothesis.md) | **One Health Hypothesis** | 0041 + 0015 | Livestock density does NOT predict dengue (r = +0.01). Buffalo shows *negative* correlation (r = -0.34). | ~20 |
 | [02](05_covid_damage_forensics.md) | **COVID Damage Forensics** | 0087 | Nationwide avg immunity crash: **-32.8pp**. Haryana lost 69.9pp. Rajasthan lost 0.1pp. | 4 |
 | [03](06_needle_in_haystack.md) | **Needle in a Haystack** | 0087 | Nagaland 2021: vaccination *halved* type O immunity (13.2% → 6.0%). Lowest post-vac in all of India. | 4 |
-| [04](07_myth_debunker.md) | **Myth Debunker** | 0087 + 0089 | Only 4 of 35 states (11%) show clear vaccination success. 49% of India is untested. | 6 |
+| [04](07_myth_debunker.md) | **Myth Debunker** | 0087 + 0089 | Only 4 of 35 states (11%) show clear vaccination success. 46% of India is untested. | 6 |
 | [05](08_risk_model.md) | **FMD Risk Model** | 0087 + 0089 + 0041 + 0015 | Andhra Pradesh, Bihar, Gujarat are India's top-3 FMD outbreak risks. | 6 |
 
 ## The narrative arc
@@ -32,7 +32,7 @@ The investigations tell a connected story:
 
 4. **Investigation 04** zooms back out and asks the uncomfortable question: is the program actually working? The answer -- only 4 states are clearly succeeding -- reframes the entire narrative from "vaccination is working" to "vaccination works *where it's been done consistently for a decade*."
 
-5. **Investigation 05** synthesizes everything into a predictive model, ranking 20 states by outbreak vulnerability. The top-3 risk states (AP, Bihar, Gujarat) aren't surprising after reading Investigations 02-04, but the model gives them a quantified risk score that policy makers can act on.
+5. **Investigation 05** synthesizes everything into a predictive model, ranking 19 states by outbreak vulnerability. The top-3 risk states (AP, Bihar, Gujarat) aren't surprising after reading Investigations 02-04, but the model gives them a quantified risk score that policy makers can act on.
 
 ## What makes this different from a data dashboard
 
@@ -46,7 +46,7 @@ A dashboard shows you data. These investigations show you *reasoning*:
 
 - **Multi-source triangulation** (Investigation 04): The AI cross-referenced seromonitoring (vaccine response) with serosurveillance (natural infection) -- two independent measurements of the same phenomenon -- to classify states more accurately than either dataset alone could.
 
-- **Model design** (Investigation 05): The AI designed a scoring formula, justified its weight choices, computed risk scores for 20 states, validated the model against domain knowledge, and identified edge cases where the model gives misleading results.
+- **Model design** (Investigation 05): The AI designed a scoring formula, justified its weight choices, computed risk scores for 19 states, validated the model against domain knowledge, and identified edge cases where the model gives misleading results.
 
 ## Datasets used
 

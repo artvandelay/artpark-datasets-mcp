@@ -43,7 +43,7 @@ Previous analyses (Examples 01-03) focused on Karnataka and concluded that vacci
 - **Haryana** had India's highest absolute post-vac numbers (96% in 2015) AND India's lowest serosurveillance (2.1-9.0% most years). This is the best combination -- high vaccine-induced immunity with minimal natural virus.
 - **Goa** ran 14 consecutive rounds (the most of any state) and maintained steady 70-97% post-vac levels.
 
-### YELLOW states: Mediocre or declining performance (10 states)
+### YELLOW states: Mediocre or declining performance (11 states)
 
 | State | Rounds | Avg Boost (O%) | Latest Post-Vac O% | Concerning Signal |
 |-------|--------|---------------|--------------------|--------------------|
@@ -64,7 +64,7 @@ Previous analyses (Examples 01-03) focused on Karnataka and concluded that vacci
 - **Gujarat's collapse**: from 81.6% post-vac in 2014 to just 40.6% in 2022. Gujarat ran the most FMDCP rounds (R13-R24, 12 rounds), yet finished with one of the weakest post-vac levels.
 - **Karnataka** is YELLOW despite 85.5% post-vac in 2022, because its serosurveillance data shows the virus is surging: 36.0% seropositive in 2022 is the highest in Karnataka's history. The vaccine works, but the virus is winning the ground war.
 
-### RED states: The program is failing or untested (21 states/territories)
+### RED states: The program is failing or untested (20 states/territories)
 
 #### Failing despite vaccination (4 states with data showing clear failure)
 
@@ -79,7 +79,7 @@ Previous analyses (Examples 01-03) focused on Karnataka and concluded that vacci
 
 **Uttarakhand's failure is consistent.** Three consecutive rounds (2017-2018) showed 2-4pp boosts. The latest round (2022) finally showed improvement (58.2%), suggesting the program may be turning around.
 
-#### Too new to judge (17 states/territories with only 1-2 rounds)
+#### Too new to judge (16 states/territories with only 1-2 rounds)
 
 These states joined the FMD vaccination program under NADCP (2021-2022) and have no historical baseline:
 
@@ -129,7 +129,7 @@ These states joined the FMD vaccination program under NADCP (2021-2022) and have
 
 ### What the data actually supports
 
-The more accurate statement is: **"India's FMD vaccination program is a demonstrated success in 4 southern and northern states that received 8-14 rounds of FMDCP vaccination, a deteriorating program in 10 states that peaked 5-7 years ago, and an untested program in half the country."**
+The more accurate statement is: **"India's FMD vaccination program is a demonstrated success in 4 southern and northern states that received 8-14 rounds of FMDCP vaccination, a deteriorating program in 11 states that peaked 5-7 years ago, and an untested program in half the country."**
 
 The myth confuses *coverage expansion* (more states vaccinating) with *effectiveness* (the vaccine actually working). NADCP is bringing vaccination to new states, which is good. But getting the vaccine to work -- maintaining cold chains, matching strains, achieving seroconversion -- is the harder problem, as Bihar and Uttarakhand demonstrate.
 

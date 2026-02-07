@@ -10,13 +10,13 @@
 
 ### 1. India lost 33 percentage points of FMD vaccine immunity during COVID
 
-The pandemic created a 3-year gap (2019-2020) in India's FMD vaccination program. Across 19 states with comparable data, the average post-vaccination immunity for FMD type O dropped from ~65% to ~32%. Five states lost more than 50 percentage points. Only Rajasthan maintained its immunity through the gap.
+The pandemic created a 3-year gap (2019-2020) in India's FMD vaccination program. Across 19 states with comparable data, the average immunity crash was -32.8 percentage points for FMD type O. Four states lost more than 50 percentage points. Only Rajasthan maintained its immunity through the gap.
 
 *Data: 238 seromonitoring records, 35 states, 2011-2022*
 
 ### 2. Only 4 of 35 Indian states show clear FMD vaccination success
 
-The claim that "India's FMD vaccination program is a nationwide success" is false. Only Tamil Nadu, Kerala, Haryana, and Goa (11%) demonstrate strong, sustained vaccination results. Ten states (31%) show mediocre or declining performance. Twenty states (57%) are either failing or too new to assess.
+The claim that "India's FMD vaccination program is a nationwide success" is false. Only Tamil Nadu, Kerala, Haryana, and Goa (11%) demonstrate strong, sustained vaccination results. Eleven states (31%) show mediocre or declining performance. Twenty states (57%) are either failing or too new to assess.
 
 *Data: 238 seromonitoring + 202 serosurveillance records cross-referenced*
 
@@ -34,7 +34,7 @@ A composite risk model combining immunity gaps (40% weight), virus pressure from
 
 ### 5. Livestock density does NOT predict dengue in Karnataka
 
-Testing the "One Health" hypothesis that livestock create mosquito breeding habitat, the AI found zero correlation (Spearman r = +0.01) between district-level bovine populations and dengue burden across 17 Karnataka districts. Belagavi has 6x the median livestock but ranks 14th for dengue. The explanation: dengue is transmitted by *Aedes* mosquitoes that breed in urban containers, not rural livestock water bodies.
+Testing the "One Health" hypothesis that livestock create mosquito breeding habitat, the AI found zero correlation (Spearman r = +0.01) between district-level bovine populations and dengue burden across 17 Karnataka districts. Belagavi has over 3× the median sampled district's livestock but ranks 14th for dengue. The explanation: dengue is transmitted by *Aedes* mosquitoes that breed in urban containers, not rural livestock water bodies.
 
 *Data: 30 district livestock records + 76,114 daily dengue records*
 
@@ -48,7 +48,7 @@ Testing the "One Health" hypothesis that livestock create mosquito breeding habi
 | **Temporal forensics** | Identified the COVID immunity crash by comparing 2018 and 2021 data across 19 states |
 | **Anomaly detection** | Scanned 238 records against 4 anomaly categories to find the single most suspicious result |
 | **Hypothesis testing** | Formulated, tested, and rejected a hypothesis with statistical correlation |
-| **Predictive modeling** | Built a 3-component risk score, computed it for 20 states, validated against domain knowledge |
+| **Predictive modeling** | Built a 3-component risk score, computed it for 19 states, validated against domain knowledge |
 
 ---
 
