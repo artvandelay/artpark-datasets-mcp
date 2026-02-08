@@ -83,6 +83,73 @@ The [`examples/Complex/`](examples/Complex/) folder contains five investigations
 
 > Read the [full series README](examples/Complex/README.md) for the narrative arc connecting all five.
 
+### How We Generated These Reports
+
+Every example in this repo was produced by giving Cursor's AI agent access to this MCP server and asking interesting questions. No Jupyter notebooks. No Python scripts. No human data wrangling. The AI used the 4-step MCP workflow autonomously, pulled real data, did the analysis in-context, and wrote the markdown reports.
+
+Here's how to reproduce this -- or create your own investigations:
+
+#### Step 1: Start the MCP server
+
+```bash
+make run
+# or: python artpark_server.py
+```
+
+#### Step 2: Connect Cursor to the MCP server
+
+Create (or verify) `.cursor/mcp.json` in your project root:
+
+```json
+{
+  "mcpServers": {
+    "artpark": {
+      "url": "http://localhost:8000/mcp"
+    }
+  }
+}
+```
+
+Restart Cursor so it picks up the MCP config. You should see `artpark` listed under the MCP tools in the agent chat.
+
+#### Step 3: Ask the AI a question
+
+Open Cursor's agent chat and ask something interesting. The simple examples (01-04) came from single questions like:
+
+- *"Is India's FMD vaccination program working?"* → [Cross-Dataset Reasoning](examples/01_cross_dataset_reasoning.md)
+- *"Tell me the story of Karnataka's FMD vaccination journey."* → [Temporal Narrative](examples/02_temporal_narrative.md)
+- *"Any surprising differences in FMD across livestock types?"* → [Hidden Patterns](examples/03_hidden_patterns.md)
+- *"Where should Karnataka prioritize its next FMD vaccination?"* → [Policy Intelligence](examples/04_policy_intelligence.md)
+
+#### Step 4: Go bigger -- ask for ambitious investigations
+
+The [Complex investigations](examples/Complex/) were generated in a multi-step conversation:
+
+1. **Brainstorm:** We asked: *"Think of some really ambitious ideas -- can we build a model? Find a needle in a haystack? Debunk a common myth?"* The AI generated [5 investigation ideas](examples/Complex/ideas.md) with detailed instructions.
+
+2. **Execute:** We said: *"Build each one of them. You'll interact with the MCP server and report back what you find."* The AI then autonomously:
+   - Called the MCP tools to pull data from multiple datasets
+   - Cross-referenced datasets (e.g., joining dengue + livestock data across 17 districts)
+   - Computed statistics (Spearman correlations, immunity crash deltas, risk scores)
+   - Wrote full markdown reports with data tables, methodology, and conclusions
+
+3. **Refine:** We prompted *"go on"* and *"refine it"* several times -- each investigation required multiple agent turns to complete the analysis and polish the report.
+
+4. **Verify:** We asked the AI to spot-check its own numbers against the live MCP data to catch any hallucinated figures.
+
+#### Step 5: Try your own questions
+
+Some ideas to get you started:
+
+- *"Which Karnataka district has the worst dengue-to-healthcare ratio?"*
+- *"Compare FMD vaccination schedules vs actual progress -- which rounds fell behind?"*
+- *"Find states where natural FMD infection is rising despite vaccination."*
+- *"Build a composite One Health risk index for Karnataka districts."*
+
+The AI will follow the `1_know → 2_get_tables → 3_get_metadata → 4_get_data` workflow automatically. Responses will vary (LLMs are non-deterministic), but the cross-dataset reasoning and findings are reproducible.
+
+> **Tip:** For long investigations, tell the AI *"You may require long runs -- feel free to not finish in one call and ask for more time."* This lets it pace itself instead of rushing through a shallow analysis.
+
 ---
 
 ## Quick Examples
