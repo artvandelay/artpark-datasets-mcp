@@ -1,5 +1,7 @@
 # ARTPARK Public Data MCP Server
 
+Devide powered [Deepwiki Documentation](https://deepwiki.com/artvandelay/artpark-datasets-mcp)
+
 MCP (Model Context Protocol) server for accessing ARTPARK's public health datasets through AI assistants. Built with FastMCP 3.0, following the architecture of [esankhyiki-mcp](https://github.com/nso-india/esankhyiki-mcp).
 
 **8 datasets** covering Dengue epidemiology, Livestock census, FMD vaccination & surveillance, and administrative geospatial data from [ARTPARK DSIH](https://health.artpark.ai/data/).
